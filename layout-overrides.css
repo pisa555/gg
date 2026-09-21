@@ -1,0 +1,5 @@
+/* The dossier is a continuous review: no required evidence is hidden behind tabs. */
+.tabbar { display: none !important; }
+.panel, .panel.active { display: block !important; margin-top: 42px; }
+.assessor #decisions, .assessor #schedules, .assessor #evidence { display: block !important; }
+.assessor #ai-trail { margin-top: 42px; }
