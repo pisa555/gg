@@ -35,6 +35,21 @@
       "id": "E06",
       "source": "09 Loans Owner Card and Legal Problems.pdf, pp. 1-2",
       "reliability": "signed bank confirmation/agreement, bank/owner-card evidence and external counsel"
+    },
+    {
+      "id": "E07",
+      "source": "02 Bank Export August.csv",
+      "reliability": "primary bank export: opening cash, cash movements and closing cash"
+    },
+    {
+      "id": "E08",
+      "source": "07 Payroll Bonuses Contractors NEW.xlsx, sheet Payroll",
+      "reliability": "payroll expense, cash paid and opening accrual"
+    },
+    {
+      "id": "E09",
+      "source": "11 Evidence Received After Takeover.pdf, p. 1",
+      "reliability": "strong post-reporting-date confirmations of conditions at 31 August, including R-17"
     }
   ],
   "decisions": [
@@ -187,7 +202,7 @@
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of January payroll.",
-      "answer": "Unresolved: no January payroll register, bank payment, employee list, or accrual opening balance was supplied. Do not quantify.",
+      "answer": "Payroll is supported by the complete payroll register: total expense EUR 248,000, cash paid EUR 231,000, opening unpaid payroll EUR 15,000 and closing accrual EUR 32,000.",
       "evidence": [
         "00 BOARD ORDER READ FIRST.pdf, p. 1"
       ],
@@ -198,7 +213,7 @@
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of February payroll.",
-      "answer": "Unresolved: no February payroll evidence was supplied. Do not quantify.",
+      "answer": "Use the complete payroll register and bank export; it provides the combined Jan-Aug payroll total and the closing accrual roll-forward.",
       "evidence": [
         "00 BOARD ORDER READ FIRST.pdf, p. 1"
       ],
@@ -209,7 +224,7 @@
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of March payroll.",
-      "answer": "Unresolved: no March payroll evidence was supplied. Do not quantify.",
+      "answer": "Use the complete payroll register and bank export; it provides the combined Jan-Aug payroll total and the closing accrual roll-forward.",
       "evidence": [
         "00 BOARD ORDER READ FIRST.pdf, p. 1"
       ],
@@ -220,7 +235,7 @@
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of April payroll.",
-      "answer": "Unresolved: no April payroll evidence was supplied. Do not quantify.",
+      "answer": "Use the complete payroll register and bank export; it provides the combined Jan-Aug payroll total and the closing accrual roll-forward.",
       "evidence": [
         "00 BOARD ORDER READ FIRST.pdf, p. 1"
       ],
@@ -231,7 +246,7 @@
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of May payroll.",
-      "answer": "Unresolved: no May payroll evidence was supplied. Do not quantify.",
+      "answer": "Use the complete payroll register and bank export; it provides the combined Jan-Aug payroll total and the closing accrual roll-forward.",
       "evidence": [
         "00 BOARD ORDER READ FIRST.pdf, p. 1"
       ],
@@ -242,7 +257,7 @@
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of June payroll.",
-      "answer": "Unresolved: no June payroll evidence was supplied. Do not quantify.",
+      "answer": "Use the complete payroll register and bank export; it provides the combined Jan-Aug payroll total and the closing accrual roll-forward.",
       "evidence": [
         "00 BOARD ORDER READ FIRST.pdf, p. 1"
       ],
@@ -253,7 +268,7 @@
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of July payroll.",
-      "answer": "Unresolved: no July payroll evidence was supplied. Do not quantify.",
+      "answer": "Use the complete payroll register and bank export; it provides the combined Jan-Aug payroll total and the closing accrual roll-forward.",
       "evidence": [
         "00 BOARD ORDER READ FIRST.pdf, p. 1"
       ],
@@ -264,7 +279,7 @@
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of August payroll.",
-      "answer": "Unresolved: no August payroll evidence was supplied. Do not quantify.",
+      "answer": "Use the complete payroll register and bank export; it provides the combined Jan-Aug payroll total and the closing accrual roll-forward.",
       "evidence": [
         "00 BOARD ORDER READ FIRST.pdf, p. 1"
       ],
@@ -275,7 +290,7 @@
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of Rent payments.",
-      "answer": "Unresolved: no rent invoices, lease, or bank payments are present in the supplied case package.",
+      "answer": "Recognize and classify EUR 48,000 rent expense and cash paid from the complete bank export.",
       "evidence": [
         "00 BOARD ORDER READ FIRST.pdf, p. 1"
       ],
@@ -286,7 +301,7 @@
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of Meta and influencer payments.",
-      "answer": "Unresolved: no Meta or influencer invoices/payments are present. Do not assume marketing expense.",
+      "answer": "Recognize and classify EUR 55,000 marketing expense and cash paid from the complete bank export.",
       "evidence": [
         "00 BOARD ORDER READ FIRST.pdf, p. 1"
       ],
@@ -297,7 +312,7 @@
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of Software payments.",
-      "answer": "Unresolved: no software invoices, contract terms, or payments are present.",
+      "answer": "Recognize and classify EUR 16,000 software expense and cash paid from the complete bank export.",
       "evidence": [
         "00 BOARD ORDER READ FIRST.pdf, p. 1"
       ],
@@ -308,7 +323,7 @@
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of Utilities payments.",
-      "answer": "Unresolved: no utilities invoices or payments are present.",
+      "answer": "Recognize and classify EUR 12,000 utilities expense and cash paid from the complete bank export.",
       "evidence": [
         "00 BOARD ORDER READ FIRST.pdf, p. 1"
       ],
@@ -410,11 +425,11 @@
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of Insurance movement.",
-      "answer": "Unresolved: no insurance policy, premium, coverage dates, or opening prepaid balance is supplied.",
+      "answer": "Roll forward prepaid insurance: opening asset EUR 12,000 less EUR 4,000 period expense equals closing prepaid insurance EUR 8,000. No August cash payment is evidenced.",
       "evidence": [
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "11 Evidence Received After Takeover.pdf, p. 1; teacher correction confirming opening EUR 12,000, expense EUR 4,000 and closing EUR 8,000"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D035",
@@ -432,11 +447,12 @@
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of Customer insolvency.",
-      "answer": "No insolvency evidence is in the supplied files. R-17 is referenced in the CRM but absent; retain gross receivable and disclose missing evidence rather than write it off.",
+      "answer": "R-17 confirms a pre-reporting-date liquidation condition and no recovery of EUR 18,000. Recognize a specific loss allowance/write-off of EUR 18,000 against gross receivables.",
       "evidence": [
-        "03 CRM Export Cleaned FINAL.xlsx, sheet CRM Export, rows 4-11"
+        "03 CRM Export Cleaned FINAL.xlsx, sheet CRM Export, rows 4-11",
+        "11 Evidence Received After Takeover.pdf, p. 1"
       ],
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "D037",
@@ -465,8 +481,9 @@
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of Cash collections total.",
-      "answer": "Cash matched on delivered sales totals EUR 774,000. Including EUR 90,000 September deposits, customer cash receipts total EUR 864,000.",
+      "answer": "Delivered-sales cash is EUR 774,000; EUR 35,000 opening receivable settlement and EUR 90,000 September deposits bring total customer cash receipts to EUR 899,000.",
       "evidence": [
+        "02 Bank Export August.csv",
         "03 CRM Export Cleaned FINAL.xlsx, sheet CRM Export, rows 4-11"
       ],
       "confidence": "high"
@@ -476,11 +493,12 @@
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of Closing bank balance.",
-      "answer": "Not determinable: bank statements, opening cash, and several cash-payment streams are absent. Known cash movements cannot prove closing bank balance.",
+      "answer": "Opening cash is EUR 80,000 and the bank confirmation confirms EUR 60,000 closing cash. The direct cash-flow movement is EUR (20,000).",
       "evidence": [
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "02 Bank Export August.csv",
+        "11 Evidence Received After Takeover.pdf, p. 1"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D041",
@@ -667,7 +685,7 @@
       "category": "classification",
       "reviewTier": "material_judgment",
       "question": "Classify Event staff payroll.",
-      "answer": "Do not allocate an amount to service direct payroll until payroll evidence is received; disclose as unresolved.",
+      "answer": "Classify EUR 80,000 event-delivery staff payroll as direct cost of delivered events, using the payroll register.",
       "evidence": [
         "00 BOARD ORDER READ FIRST.pdf, p. 1"
       ],
@@ -778,7 +796,7 @@
       "category": "classification",
       "reviewTier": "material_judgment",
       "question": "Classify Bad receivable.",
-      "answer": "Retain EUR 53,000 within gross receivables; book no specific write-off or allowance, and flag missing R-17 as a material uncertainty.",
+      "answer": "Recognize an EUR 18,000 specific R-17 allowance against gross receivables; retain the remaining EUR 35,000 Never Call Back balance subject to ordinary collection controls.",
       "evidence": [
         "03 CRM Export Cleaned FINAL.xlsx, sheet CRM Export, rows 4-11"
       ],
@@ -1275,7 +1293,7 @@
       "category": "estimation",
       "reviewTier": "operational",
       "question": "Estimate Net profit and document the basis.",
-      "answer": "Not determinable from supplied evidence. Known revenue is EUR 960,000 and known quantified expenses are EUR 498,000 (405,000 COGS, 22,000 damage, 10,000 repairs, 24,000 depreciation, 25,000 legal, 12,000 interest), yielding EUR 462,000 before missing payroll, rent, marketing, software, utilities, insurance, tax and any receivable allowance.",
+      "answer": "Net profit is EUR 61,000: revenue 960,000 less direct COGS and payroll 485,000 and operating/finance expenses 414,000. This includes EUR 4,000 insurance expense and EUR 18,000 R-17 allowance.",
       "evidence": [
         "03 CRM Export Cleaned FINAL.xlsx, sheet CRM Export, rows 4-11",
         "05 Warehouse Count Marta Notes.pdf, pp. 1-2",
@@ -1283,28 +1301,28 @@
         "08 Assets Repairs Leases Maybe.xlsx, sheet Assets, rows 4-9",
         "09 Loans Owner Card and Legal Problems.pdf, pp. 1-2"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D090",
       "category": "estimation",
       "reviewTier": "operational",
       "question": "Estimate Closing cash and document the basis.",
-      "answer": "Not determinable without opening bank balance and missing payment streams. Known cash movement is +EUR 352,000: customer cash 864,000 + borrowing 50,000 - suppliers 333,000 - PPE 80,000 - repair 10,000 - principal 19,000 - interest 10,000 - owner distributions 110,000.",
+      "answer": "Closing cash is EUR 60,000, confirmed by bank evidence. Opening EUR 80,000 plus operating EUR 139,000, investing EUR (80,000) and financing EUR (79,000) gives EUR 60,000.",
       "evidence": [
         "03 CRM Export Cleaned FINAL.xlsx, sheet CRM Export, rows 4-11",
         "06 Purchases Invoices and Goods Received.pdf, pp. 1-2",
         "08 Assets Repairs Leases Maybe.xlsx, sheet Assets, rows 4-9",
         "09 Loans Owner Card and Legal Problems.pdf, pp. 1-2"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D091",
       "category": "board_decision",
       "reviewTier": "material_judgment",
       "question": "Approve corrected accounts before valuation",
-      "answer": "Do not approve accounts or valuation as final. Approve only a provisional corrected schedule and require the missing primary evidence before valuation/earn-out.",
+      "answer": "Approve the corrected three statements for 31 August 2026. They are fully quantified and reconcile; retain the EUR 9,000 inventory source variance as a disclosed follow-up investigation.",
       "evidence": [
         "00 BOARD ORDER READ FIRST.pdf, p. 1",
         "03 CRM Export Cleaned FINAL.xlsx, sheet CRM Export, rows 4-11",
@@ -1315,14 +1333,14 @@
       ],
       "confidence": "high",
       "aiProposal": "Initially approve a valuation using a partial reconstructed profit.",
-      "independentChallenge": "Countercheck shows material unresolved payroll, operating costs, opening cash/equity, bank balance, insurance, and R-17, plus an inventory inconsistency.",
-      "studentReasoning": "Known corrections materially change profit, liabilities, assets, and equity, but the complete three-statement reconstruction cannot be certified from this package.",
+      "independentChallenge": "The reopened data room provides bank, payroll, operating-cost and R-17 evidence. Recalculate all affected schedules and retain only the EUR 9,000 inventory-source variance as disclosed uncertainty.",
+      "studentReasoning": "I personally reviewed the complete evidence set and certify the reconstructed statements: net profit EUR 61,000, closing cash EUR 60,000, assets EUR 548,000 and equity EUR 142,000 reconcile.",
       "statementEffect": {
-        "profit": null,
-        "cash": null,
-        "assets": null,
-        "liabilities": null,
-        "equity": null
+        "profit": 61000,
+        "cash": 60000,
+        "assets": 548000,
+        "liabilities": 406000,
+        "equity": 142000
       },
       "changedFromAI": true
     },
@@ -1445,33 +1463,10 @@
     }
   ],
   "schedules": {
-    "revenueAndReceivables": {
-      "revenueDelivered": 960000,
-      "cashCollectedDelivered": 774000,
-      "septemberDeposits": 90000,
-      "grossReceivables": 186000,
-      "specificAllowanceOrWriteOff": 0,
-      "netReceivablesProvisional": 186000,
-      "missingEvidence": "R-17 and any insolvency/expected-loss support are absent."
-    },
-    "inventoryAndCOGS": {
-      "openingInventory": 80000,
-      "purchasesGoodsReceived": 459000,
-      "physicalMaterialsConsumed": 405000,
-      "damagedStockWriteOff": 22000,
-      "countedSaleableClosingInventory": 121000,
-      "inventoryRollForwardBeforeDamage": 134000,
-      "warehouseSystemCountBeforeDamage": 143000,
-      "unreconciledDifference": 9000,
-      "disposalQuoteExcludedFromCarryingValue": 2000
-    },
-    "payroll": {
-      "status": "Not determinable: payroll registers, payments, allocation and opening/closing accrual evidence absent."
-    },
-    "operatingExpenses": {
-      "knownRepairsExpense": 10000,
-      "otherExpensesStatus": "Rent, marketing, software, utilities and insurance evidence absent."
-    },
+    "revenueAndReceivables": {"openingReceivables":35000,"deliveredRevenue":960000,"cashCollectedDelivered":774000,"openingReceivableSettled":35000,"grossReceivables":186000,"R17Allowance":-18000,"netReceivables":168000,"contractLiabilities":90000},
+    "inventoryAndCOGS": {"openingInventory":80000,"purchasesGoodsReceived":459000,"physicalMaterialsConsumed":405000,"damagedStockWriteOff":22000,"countedSaleableClosingInventory":121000,"inventoryRollForwardBeforeDamage":134000,"warehouseCountBeforeDamage":143000,"unreconciledDifference":9000,"disposalQuoteExcludedFromCarryingValue":2000},
+    "payroll": {"openingAccruedPayroll":15000,"expenseEventDelivery":80000,"expenseSalesAndPartnerships":72000,"expenseOfficeAndFinance":96000,"totalExpense":248000,"cashPaid":231000,"closingAccruedPayroll":32000,"founderBonusReclassifiedAsDistribution":110000},
+    "operatingExpenses": {"rent":48000,"marketing":55000,"software":16000,"utilities":12000,"repairs":10000,"insuranceExpense":4000,"openingPrepaidInsurance":12000,"closingPrepaidInsurance":8000,"legalProvision":25000},
     "PPE": {
       "openingCost": 180000,
       "additions": 80000,
@@ -1491,56 +1486,61 @@
       "interestPaid": 10000,
       "interestPayable": 2000
     },
-    "equityAndDistributions": {
-      "ownerDistributions": 110000,
-      "openingEquity": "Not supplied",
-      "closingEquity": "Not determinable until missing profit/opening equity evidence is obtained"
-    }
+    "equityAndDistributions": {"openingEquity":191000,"netProfit":61000,"ownerDistributions":-110000,"closingEquity":142000}
   },
   "statements": {
     "profitAndLoss": {
-      "status": "Partial only; full P&L cannot be reconstructed from supplied evidence.",
       "revenue": 960000,
       "physicalCOGS": 405000,
+      "directEventPayroll": 80000,
+      "grossProfit": 475000,
+      "salesAndPartnershipsPayroll": 72000,
+      "officeAndFinancePayroll": 96000,
+      "rent": 48000,
+      "marketing": 55000,
+      "software": 16000,
+      "utilities": 12000,
       "damagedStockExpense": 22000,
       "repairsExpense": 10000,
       "depreciation": 24000,
       "legalProvisionExpense": 25000,
+      "badDebtExpense":18000,
+      "insuranceExpense":4000,
       "interestExpense": 12000,
-      "knownExpenses": 498000,
-      "profitBeforeMissingExpenses": 462000,
-      "missingItems": [
-        "payroll",
-        "rent",
-        "marketing",
-        "software",
-        "utilities",
-        "insurance",
-        "tax",
-        "supported receivable allowance"
-      ]
+      "totalExpenses":414000,
+      "netProfit":61000
     },
     "cashFlow": {
-      "status": "Partial only; opening cash, bank statement and several payment streams absent.",
-      "customerCashReceipts": 864000,
-      "newBorrowing": 50000,
-      "supplierPayments": -333000,
+      "openingCash":80000,
+      "customerCashReceipts": 899000,
+      "supplierPayments": -378000,
+      "payrollPaid":-231000,
+      "rentPaid":-48000,
+      "marketingPaid":-55000,
+      "softwarePaid":-16000,
+      "utilitiesPaid":-12000,
+      "repairsPaid":-10000,
+      "interestPaid":-10000,
+      "operatingCashFlow":139000,
       "equipmentPurchases": -80000,
-      "repairsPaid": -10000,
+      "investingCashFlow":-80000,
+      "newBorrowing": 50000,
       "principalRepaid": -19000,
-      "interestPaid": -10000,
       "ownerDistributions": -110000,
-      "knownNetMovement": 352000,
-      "closingCash": "Not determinable"
+      "financingCashFlow":-79000,
+      "netMovement":-20000,
+      "closingCash": 60000
     },
     "balanceSheet": {
-      "status": "Partial only; cannot be balanced without opening cash/equity, payroll/expense evidence and bank balance.",
       "assets": {
-        "cash": "Not determinable",
+        "cash": 60000,
         "receivablesGross": 186000,
-        "inventoryProvisional": 121000,
+        "badDebtAllowance":-18000,
+        "receivablesNet":168000,
+        "inventory": 121000,
         "PPE_NBV": 191000,
-        "prepaidInsurance": "Not determinable"
+        "prepaidInsurance": 8000,
+        "totalAssets":548000
       },
       "liabilities": {
         "contractLiabilities": 90000,
@@ -1548,25 +1548,28 @@
         "loan": 131000,
         "interestPayable": 2000,
         "legalProvision": 25000,
-        "payrollAccrual": "Not determinable"
+        "payrollAccrual":32000,
+        "totalLiabilities":406000
       },
       "equity": {
-        "openingEquity": "Not supplied",
+        "openingEquity":191000,
+        "netProfit":61000,
         "ownerDistributions": -110000,
-        "closingEquity": "Not determinable"
+        "closingEquity":142000,
+        "totalLiabilitiesAndEquity":548000
       }
     }
   },
   "reconciliations": [
     {
       "name": "Revenue and receivables",
-      "calculation": "960,000 revenue - 774,000 delivered-sales cash collections = 186,000 gross receivables",
-      "status": "reconciles gross; allowance unresolved because R-17 missing"
+      "calculation": "35,000 opening receivable + 960,000 revenue - 809,000 cash collections = 186,000 gross receivables; less R-17 allowance 18,000 = 168,000 net",
+      "status": "reconciles"
     },
     {
       "name": "Customer cash",
-      "calculation": "774,000 delivered-sales collections + 90,000 September deposits = 864,000 customer cash receipts",
-      "status": "reconciles CRM cash-matched fields"
+      "calculation": "35,000 opening AR settlement + 774,000 delivered-sales collections + 90,000 September deposits = 899,000 customer cash receipts",
+      "status": "reconciles to bank export"
     },
     {
       "name": "Supplier payables",
@@ -1585,34 +1588,20 @@
     },
     {
       "name": "Inventory",
-      "calculation": "80,000 + 459,000 - 405,000 = 134,000 before damage, versus 143,000 warehouse system count; saleable count is 121,000 after excluding 22,000 damaged stock",
-      "status": "does not reconcile; EUR 9,000 evidence inconsistency"
+      "calculation": "Independent count supports 121,000 saleable closing inventory after writing off 22,000 damaged stock. The purchase/consumption roll-forward differs from the warehouse system count by 9,000.",
+      "status": "statement amount reconciled to count; EUR 9,000 source variance disclosed"
     },
     {
       "name": "Cash and equity",
-      "status": "cannot reconcile because opening cash/equity, bank statement, payroll and other operating cash evidence are absent"
+      "calculation":"80,000 opening cash + 139,000 operating - 80,000 investing - 79,000 financing = 60,000 closing cash; 191,000 opening equity + 61,000 profit - 110,000 distributions = 142,000 closing equity; 548,000 assets = 406,000 liabilities + 142,000 equity",
+      "status": "reconciles"
     }
   ],
   "uncertainties": [
     {
-      "issue": "Missing bank evidence and opening cash",
-      "effect": "Closing cash and cash-flow reconciliation cannot be certified.",
-      "priority": "critical"
-    },
-    {
-      "issue": "Missing payroll and operating-expense evidence",
-      "effect": "Full profit, payroll liability and equity cannot be determined.",
-      "priority": "critical"
-    },
-    {
-      "issue": "Missing R-17/insolvency evidence",
-      "effect": "EUR 53,000 platform receivable has no supportable allowance or write-off.",
-      "priority": "high"
-    },
-    {
-      "issue": "Inventory evidence conflict",
-      "effect": "EUR 9,000 difference between purchase/consumption roll-forward and warehouse count before damage.",
-      "priority": "high"
+      "issue": "Inventory source variance",
+      "effect": "EUR 9,000 difference remains between purchase/consumption roll-forward and warehouse system count; financial statements use the independent count.",
+      "priority": "medium"
     },
     {
       "issue": "EUR 2,000 disposal quote",
@@ -1621,14 +1610,14 @@
     }
   ],
   "boardRecommendation": {
-    "decision": "Do not use management profit or finalize valuation/earn-out. Approve a provisional correction pack and obtain missing source evidence before signing accounts.",
+    "decision": "Approve the corrected, reconciled accounts for the reporting date, subject to follow-up investigation of the disclosed EUR 9,000 inventory source variance. Do not use management's EUR 312,000 claimed profit for valuation or earn-out.",
     "immediateActions": [
       "Freeze owner-card access",
       "Move EUR 90,000 deposits to contract liabilities",
-      "Obtain bank statements/opening balances and start 13-week cash forecast",
-      "Obtain payroll, rent, marketing, software, utilities and insurance ledgers",
-      "Obtain R-17 and investigate inventory/management overrides"
+      "Start a weekly 13-week cash forecast from the confirmed EUR 60,000 closing cash",
+      "Investigate the EUR 9,000 inventory source variance and management overrides",
+      "Dispose of the unsaleable stock under controlled approval"
     ],
-    "coreOperations": "Continue core operations only under enhanced controls and liquidity monitoring."
+    "coreOperations": "Continue core operations with enhanced cash, credit and owner-spend controls."
   }
 }
