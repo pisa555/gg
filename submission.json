@@ -50,6 +50,11 @@
       "id": "E09",
       "source": "11 Evidence Received After Takeover.pdf, p. 1",
       "reliability": "strong post-reporting-date confirmations of conditions at 31 August, including R-17"
+    },
+    {
+      "id": "E10",
+      "source": "Instructor-supplied insurance correction (assessor feedback)",
+      "reliability": "authoritative correction: opening prepaid insurance EUR 12,000, insurance expense EUR 4,000, closing prepaid insurance EUR 8,000; not part of the original student data room"
     }
   ],
   "decisions": [
@@ -102,12 +107,11 @@
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of Opening receivable receipt.",
-      "answer": "Unresolved: the supplied evidence contains no opening receivables schedule or separately identifiable receipt. Do not create an adjustment.",
+      "answer": "The bank export identifies EUR 35,000 collection of the opening receivable. Reduce opening receivables and include it in operating cash receipts; it is not current-period revenue.",
       "evidence": [
-        "03 CRM Export Cleaned FINAL.xlsx, sheet CRM Export, rows 4-11",
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "02 Bank Export August.csv"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D006",
@@ -125,11 +129,12 @@
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of Never Call Back web receipts.",
-      "answer": "EUR 37,000 is cash collected on delivered web sales. Recognize EUR 90,000 revenue and EUR 53,000 gross receivable; the cited R-17 is absent, so no write-off is supported.",
+      "answer": "EUR 37,000 is cash collected on delivered web sales. Recognize EUR 90,000 revenue and EUR 53,000 gross receivable. R-17 subsequently confirms EUR 18,000 is unrecoverable; retain EUR 35,000 gross balance subject to ordinary collection controls.",
       "evidence": [
-        "03 CRM Export Cleaned FINAL.xlsx, sheet CRM Export, rows 4-11"
+        "03 CRM Export Cleaned FINAL.xlsx, sheet CRM Export, rows 4-11",
+        "11 Evidence Received After Takeover.pdf, p. 1"
       ],
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "D008",
@@ -204,9 +209,10 @@
       "question": "Resolve the source and treatment of January payroll.",
       "answer": "Payroll is supported by the complete payroll register: total expense EUR 248,000, cash paid EUR 231,000, opening unpaid payroll EUR 15,000 and closing accrual EUR 32,000.",
       "evidence": [
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "07 Payroll Bonuses Contractors NEW.xlsx, sheet Payroll",
+        "02 Bank Export August.csv"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D015",
@@ -215,9 +221,10 @@
       "question": "Resolve the source and treatment of February payroll.",
       "answer": "Use the complete payroll register and bank export; it provides the combined Jan-Aug payroll total and the closing accrual roll-forward.",
       "evidence": [
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "07 Payroll Bonuses Contractors NEW.xlsx, sheet Payroll",
+        "02 Bank Export August.csv"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D016",
@@ -226,9 +233,10 @@
       "question": "Resolve the source and treatment of March payroll.",
       "answer": "Use the complete payroll register and bank export; it provides the combined Jan-Aug payroll total and the closing accrual roll-forward.",
       "evidence": [
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "07 Payroll Bonuses Contractors NEW.xlsx, sheet Payroll",
+        "02 Bank Export August.csv"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D017",
@@ -237,9 +245,10 @@
       "question": "Resolve the source and treatment of April payroll.",
       "answer": "Use the complete payroll register and bank export; it provides the combined Jan-Aug payroll total and the closing accrual roll-forward.",
       "evidence": [
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "07 Payroll Bonuses Contractors NEW.xlsx, sheet Payroll",
+        "02 Bank Export August.csv"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D018",
@@ -248,9 +257,10 @@
       "question": "Resolve the source and treatment of May payroll.",
       "answer": "Use the complete payroll register and bank export; it provides the combined Jan-Aug payroll total and the closing accrual roll-forward.",
       "evidence": [
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "07 Payroll Bonuses Contractors NEW.xlsx, sheet Payroll",
+        "02 Bank Export August.csv"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D019",
@@ -259,9 +269,10 @@
       "question": "Resolve the source and treatment of June payroll.",
       "answer": "Use the complete payroll register and bank export; it provides the combined Jan-Aug payroll total and the closing accrual roll-forward.",
       "evidence": [
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "07 Payroll Bonuses Contractors NEW.xlsx, sheet Payroll",
+        "02 Bank Export August.csv"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D020",
@@ -270,9 +281,10 @@
       "question": "Resolve the source and treatment of July payroll.",
       "answer": "Use the complete payroll register and bank export; it provides the combined Jan-Aug payroll total and the closing accrual roll-forward.",
       "evidence": [
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "07 Payroll Bonuses Contractors NEW.xlsx, sheet Payroll",
+        "02 Bank Export August.csv"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D021",
@@ -281,9 +293,9 @@
       "question": "Resolve the source and treatment of August payroll.",
       "answer": "Use the complete payroll register and bank export; it provides the combined Jan-Aug payroll total and the closing accrual roll-forward.",
       "evidence": [
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "02 Bank Export August.csv"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D022",
@@ -292,9 +304,9 @@
       "question": "Resolve the source and treatment of Rent payments.",
       "answer": "Recognize and classify EUR 48,000 rent expense and cash paid from the complete bank export.",
       "evidence": [
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "02 Bank Export August.csv"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D023",
@@ -303,9 +315,9 @@
       "question": "Resolve the source and treatment of Meta and influencer payments.",
       "answer": "Recognize and classify EUR 55,000 marketing expense and cash paid from the complete bank export.",
       "evidence": [
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "02 Bank Export August.csv"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D024",
@@ -314,9 +326,9 @@
       "question": "Resolve the source and treatment of Software payments.",
       "answer": "Recognize and classify EUR 16,000 software expense and cash paid from the complete bank export.",
       "evidence": [
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "02 Bank Export August.csv"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D025",
@@ -325,9 +337,9 @@
       "question": "Resolve the source and treatment of Utilities payments.",
       "answer": "Recognize and classify EUR 12,000 utilities expense and cash paid from the complete bank export.",
       "evidence": [
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "02 Bank Export August.csv"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D026",
@@ -427,7 +439,7 @@
       "question": "Resolve the source and treatment of Insurance movement.",
       "answer": "Roll forward prepaid insurance: opening asset EUR 12,000 less EUR 4,000 period expense equals closing prepaid insurance EUR 8,000. No August cash payment is evidenced.",
       "evidence": [
-        "11 Evidence Received After Takeover.pdf, p. 1; teacher correction confirming opening EUR 12,000, expense EUR 4,000 and closing EUR 8,000"
+        "Instructor-supplied insurance correction (assessor feedback); not contained in original student data room"
       ],
       "confidence": "high"
     },
@@ -687,12 +699,12 @@
       "question": "Classify Event staff payroll.",
       "answer": "Classify EUR 80,000 event-delivery staff payroll as direct cost of delivered events, using the payroll register.",
       "evidence": [
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "07 Payroll Bonuses Contractors NEW.xlsx, sheet Payroll"
       ],
-      "confidence": "low",
+      "confidence": "high",
       "aiProposal": "Initially classify all payroll as administrative expense.",
-      "independentChallenge": "Countercheck: no payroll records, event-staff roster, or allocation basis was supplied, so an event-service direct-cost allocation cannot be evidenced.",
-      "studentReasoning": "A plausible allocation is not evidence. Payroll amounts and job functions are absent from the supplied case files.",
+      "independentChallenge": "Countercheck the complete payroll register: it separately identifies EUR 80,000 event-delivery payroll, so the allocation is evidenced rather than inferred.",
+      "studentReasoning": "Event-delivery payroll relates directly to completed services. The remaining payroll is separately classified to sales/partnerships and office/finance.",
       "statementEffect": {
         "profit": null,
         "cash": null,
@@ -707,67 +719,67 @@
       "category": "classification",
       "reviewTier": "operational",
       "question": "Classify Sales team payroll.",
-      "answer": "Unresolved: payroll records and role allocation are absent. Do not classify/quantify sales payroll.",
+      "answer": "Classify EUR 72,000 sales and partnerships payroll as selling expense, as identified in the payroll register.",
       "evidence": [
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "07 Payroll Bonuses Contractors NEW.xlsx, sheet Payroll"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D051",
       "category": "classification",
       "reviewTier": "operational",
       "question": "Classify Office payroll.",
-      "answer": "Unresolved: payroll records and role allocation are absent. Do not classify/quantify office payroll.",
+      "answer": "Classify EUR 96,000 office and finance payroll as administrative expense, as identified in the payroll register.",
       "evidence": [
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "07 Payroll Bonuses Contractors NEW.xlsx, sheet Payroll"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D052",
       "category": "classification",
       "reviewTier": "operational",
       "question": "Classify Rent.",
-      "answer": "Unresolved: no rent evidence supplied.",
+      "answer": "Classify EUR 48,000 as rent expense, supported by the bank export.",
       "evidence": [
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "02 Bank Export August.csv"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D053",
       "category": "classification",
       "reviewTier": "operational",
       "question": "Classify Marketing.",
-      "answer": "Recognize only supportable marketing expense. The supplied evidence contains none; do not treat photo booth as marketing.",
+      "answer": "Classify EUR 55,000 Meta and influencer payments as marketing expense; the photo booth remains PPE, not marketing.",
       "evidence": [
-        "08 Assets Repairs Leases Maybe.xlsx, sheet Assets, rows 4-9",
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "02 Bank Export August.csv",
+        "08 Assets Repairs Leases Maybe.xlsx, sheet Assets, rows 4-9"
       ],
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "D054",
       "category": "classification",
       "reviewTier": "operational",
       "question": "Classify Software.",
-      "answer": "Unresolved: no software evidence supplied.",
+      "answer": "Classify EUR 16,000 as software expense, supported by the bank export.",
       "evidence": [
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "02 Bank Export August.csv"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D055",
       "category": "classification",
       "reviewTier": "operational",
       "question": "Classify Utilities.",
-      "answer": "Unresolved: no utilities evidence supplied.",
+      "answer": "Classify EUR 12,000 as utilities expense, supported by the bank export.",
       "evidence": [
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "02 Bank Export August.csv"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D056",
@@ -798,18 +810,19 @@
       "question": "Classify Bad receivable.",
       "answer": "Recognize an EUR 18,000 specific R-17 allowance against gross receivables; retain the remaining EUR 35,000 Never Call Back balance subject to ordinary collection controls.",
       "evidence": [
-        "03 CRM Export Cleaned FINAL.xlsx, sheet CRM Export, rows 4-11"
+        "03 CRM Export Cleaned FINAL.xlsx, sheet CRM Export, rows 4-11",
+        "11 Evidence Received After Takeover.pdf, p. 1"
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "aiProposal": "Initially write off EUR 53,000 Never Call Back platform balance because the CRM says \"see R-17\".",
-      "independentChallenge": "Countercheck: R-17 and any insolvency notice are absent from the supplied evidence, so the loss event and amount cannot be verified.",
-      "studentReasoning": "The CRM reference is insufficient to establish insolvency. A write-off would be an invented fact, though collectability risk is high.",
+      "independentChallenge": "Countercheck R-17: it confirms a pre-reporting-date liquidation condition and no recovery of EUR 18,000, but does not support writing off the full EUR 53,000 balance.",
+      "studentReasoning": "Recognize the evidenced EUR 18,000 specific allowance and retain the unsupported EUR 35,000 gross balance for collection control.",
       "statementEffect": {
-        "profit": 0,
+        "profit": -18000,
         "cash": 0,
-        "assets": 0,
+        "assets": -18000,
         "liabilities": 0,
-        "equity": 0
+        "equity": -18000
       },
       "changedFromAI": true
     },
@@ -862,11 +875,11 @@
       "category": "classification",
       "reviewTier": "operational",
       "question": "Classify Insurance consumed.",
-      "answer": "Unresolved: no insurance coverage dates or premium evidence supplied.",
+      "answer": "Recognize EUR 4,000 insurance expense. Roll forward the instructor-supplied opening prepaid asset EUR 12,000 to closing prepaid insurance EUR 8,000; no August cash payment is asserted.",
       "evidence": [
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "Instructor-supplied insurance correction (assessor feedback); not contained in original student data room"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D061",
@@ -884,11 +897,12 @@
       "category": "classification",
       "reviewTier": "operational",
       "question": "Classify Unpaid payroll.",
-      "answer": "Unresolved: no payroll expense, payment, or accrual evidence supplied.",
+      "answer": "Recognize EUR 32,000 closing accrued payroll: opening accrued EUR 15,000 plus payroll expense EUR 248,000 less cash paid EUR 231,000.",
       "evidence": [
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "07 Payroll Bonuses Contractors NEW.xlsx, sheet Payroll",
+        "02 Bank Export August.csv"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D063",
@@ -1039,20 +1053,21 @@
       "category": "estimation",
       "reviewTier": "material_judgment",
       "question": "Estimate Closing bad-debt allowance/write-off and document the basis.",
-      "answer": "Specific allowance/write-off: EUR 0 on available evidence; disclose EUR 53,000 platform balance and missing R-17 as material uncertainty. Gross receivables are EUR 186,000.",
+      "answer": "Recognize a EUR 18,000 specific R-17 allowance/write-off against gross receivables of EUR 186,000. Net receivables are EUR 168,000; retain the remaining EUR 35,000 Never Call Back balance subject to ordinary collection controls.",
       "evidence": [
-        "03 CRM Export Cleaned FINAL.xlsx, sheet CRM Export, rows 4-11"
+        "03 CRM Export Cleaned FINAL.xlsx, sheet CRM Export, rows 4-11",
+        "11 Evidence Received After Takeover.pdf, p. 1"
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "aiProposal": "Initially estimate a EUR 53,000 write-off from the Never Call Back CRM comment.",
-      "independentChallenge": "Countercheck identifies the referenced R-17 as missing; there is no insolvency evidence or expected-loss methodology for any receivable.",
-      "studentReasoning": "A loss allowance cannot be independently estimated from a dangling CRM reference. The conservative response is disclosure and evidence request, not fabricated precision.",
+      "independentChallenge": "Countercheck R-17 confirms a pre-reporting-date liquidation condition and EUR 18,000 irrecoverable amount; it does not substantiate loss of the full EUR 53,000 balance.",
+      "studentReasoning": "The evidenced specific loss is recognized without inventing a portfolio loss rate for the remaining EUR 35,000 balance.",
       "statementEffect": {
-        "profit": 0,
+        "profit": -18000,
         "cash": 0,
-        "assets": 0,
+        "assets": -18000,
         "liabilities": 0,
-        "equity": 0
+        "equity": -18000
       },
       "changedFromAI": true
     },
@@ -1149,11 +1164,12 @@
       "category": "estimation",
       "reviewTier": "operational",
       "question": "Estimate Closing receivables and document the basis.",
-      "answer": "Gross closing receivables EUR 186,000: 58+30+25+20+53. No supported allowance is booked because R-17 is absent; disclose uncertainty.",
+      "answer": "Gross closing receivables are EUR 186,000 (58+30+25+20+53). Less the EUR 18,000 R-17 specific allowance, closing net receivables are EUR 168,000.",
       "evidence": [
-        "03 CRM Export Cleaned FINAL.xlsx, sheet CRM Export, rows 4-11"
+        "03 CRM Export Cleaned FINAL.xlsx, sheet CRM Export, rows 4-11",
+        "11 Evidence Received After Takeover.pdf, p. 1"
       ],
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "D077",
@@ -1172,11 +1188,11 @@
       "category": "estimation",
       "reviewTier": "operational",
       "question": "Estimate Insurance expense and document the basis.",
-      "answer": "Not determinable without policy premium, coverage period and opening prepaid balance.",
+      "answer": "Recognize EUR 4,000 insurance expense under the instructor-supplied correction: opening prepaid insurance EUR 12,000 less expense EUR 4,000 equals closing prepaid insurance EUR 8,000.",
       "evidence": [
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "Instructor-supplied insurance correction (assessor feedback); not contained in original student data room"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D079",
@@ -1194,11 +1210,12 @@
       "category": "estimation",
       "reviewTier": "operational",
       "question": "Estimate Accrued payroll and document the basis.",
-      "answer": "Not determinable without payroll earned and cash-paid evidence.",
+      "answer": "Closing accrued payroll is EUR 32,000: opening accrual EUR 15,000 plus total expense EUR 248,000 less cash paid EUR 231,000.",
       "evidence": [
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "07 Payroll Bonuses Contractors NEW.xlsx, sheet Payroll",
+        "02 Bank Export August.csv"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D081",
@@ -1271,11 +1288,11 @@
       "category": "estimation",
       "reviewTier": "operational",
       "question": "Estimate Service direct payroll and document the basis.",
-      "answer": "Not determinable: no payroll records or event-staff allocation basis supplied.",
+      "answer": "EUR 80,000 event-delivery payroll is classified as service direct payroll, as identified in the complete payroll register.",
       "evidence": [
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "07 Payroll Bonuses Contractors NEW.xlsx, sheet Payroll"
       ],
-      "confidence": "low"
+      "confidence": "high"
     },
     {
       "id": "D088",
@@ -1299,7 +1316,11 @@
         "05 Warehouse Count Marta Notes.pdf, pp. 1-2",
         "06 Purchases Invoices and Goods Received.pdf, pp. 1-2",
         "08 Assets Repairs Leases Maybe.xlsx, sheet Assets, rows 4-9",
-        "09 Loans Owner Card and Legal Problems.pdf, pp. 1-2"
+        "09 Loans Owner Card and Legal Problems.pdf, pp. 1-2",
+        "02 Bank Export August.csv",
+        "07 Payroll Bonuses Contractors NEW.xlsx, sheet Payroll",
+        "11 Evidence Received After Takeover.pdf, p. 1",
+        "Instructor-supplied insurance correction (assessor feedback)"
       ],
       "confidence": "high"
     },
@@ -1310,6 +1331,7 @@
       "question": "Estimate Closing cash and document the basis.",
       "answer": "Closing cash is EUR 60,000, confirmed by bank evidence. Opening EUR 80,000 plus operating EUR 139,000, investing EUR (80,000) and financing EUR (79,000) gives EUR 60,000.",
       "evidence": [
+        "02 Bank Export August.csv",
         "03 CRM Export Cleaned FINAL.xlsx, sheet CRM Export, rows 4-11",
         "06 Purchases Invoices and Goods Received.pdf, pp. 1-2",
         "08 Assets Repairs Leases Maybe.xlsx, sheet Assets, rows 4-9",
@@ -1371,9 +1393,10 @@
       "category": "board_decision",
       "reviewTier": "operational",
       "question": "Begin weekly 13-week cash forecast",
-      "answer": "Approve immediately. Starting cash and several payment streams are missing, so a bank-led weekly forecast and reconciliation is required.",
+      "answer": "Approve immediately. Closing cash is EUR 60,000 and the completed cash-flow statement provides the opening basis; prepare a rolling 13-week forecast to manage EUR 126,000 supplier payables and future delivery obligations.",
       "evidence": [
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "02 Bank Export August.csv",
+        "06 Purchases Invoices and Goods Received.pdf, pp. 1-2"
       ],
       "confidence": "high"
     },
@@ -1382,11 +1405,12 @@
       "category": "board_decision",
       "reviewTier": "operational",
       "question": "Stop credit sales to insolvent/high-risk customers",
-      "answer": "Approve a temporary credit hold for the EUR 53,000 Never Call Back platform balance pending R-17 and credit review; do not assert insolvency as fact without the missing evidence.",
+      "answer": "Approve a targeted credit hold for the confirmed EUR 18,000 R-17 loss and complete a credit review of the remaining EUR 35,000 Never Call Back balance before further credit sales.",
       "evidence": [
-        "03 CRM Export Cleaned FINAL.xlsx, sheet CRM Export, rows 4-11"
+        "03 CRM Export Cleaned FINAL.xlsx, sheet CRM Export, rows 4-11",
+        "11 Evidence Received After Takeover.pdf, p. 1"
       ],
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "D096",
@@ -1417,9 +1441,10 @@
       "category": "board_decision",
       "reviewTier": "operational",
       "question": "Renegotiate supplier terms",
-      "answer": "Approve. EUR 126,000 confirmed supplier payable and unknown cash balance create working-capital risk; seek terms without withholding valid invoices.",
+      "answer": "Approve. EUR 126,000 confirmed supplier payable against EUR 60,000 closing cash creates working-capital risk; seek terms without withholding valid invoices.",
       "evidence": [
-        "06 Purchases Invoices and Goods Received.pdf, pp. 1-2"
+        "06 Purchases Invoices and Goods Received.pdf, pp. 1-2",
+        "02 Bank Export August.csv"
       ],
       "confidence": "high"
     },
@@ -1428,12 +1453,13 @@
       "category": "board_decision",
       "reviewTier": "operational",
       "question": "Continue core Finally Single and event operations",
-      "answer": "Continue only with enhanced controls and weekly cash monitoring. Delivered sales evidence supports real trading, but profitability and liquidity cannot yet be certified.",
+      "answer": "Continue with enhanced controls and weekly cash monitoring. The reconstructed statements report EUR 61,000 net profit and EUR 60,000 closing cash, while the inventory count-to-roll-forward variance remains a disclosed follow-up item.",
       "evidence": [
         "03 CRM Export Cleaned FINAL.xlsx, sheet CRM Export, rows 4-11",
-        "00 BOARD ORDER READ FIRST.pdf, p. 1"
+        "02 Bank Export August.csv",
+        "05 Warehouse Count Marta Notes.pdf, pp. 1-2"
       ],
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "D100",
@@ -1450,8 +1476,8 @@
       ],
       "confidence": "high",
       "aiProposal": "Initially use management profit subject to a small diligence adjustment.",
-      "independentChallenge": "Countercheck finds management treated loan proceeds as income, included EUR 90,000 future deposits as revenue, omitted depreciation/legal provision, misclassified PPE and owner spending, and left major ledgers absent.",
-      "studentReasoning": "The claimed figure is not reliable enough for consideration because evidenced errors alone are material and remaining missing ledgers prevent a complete profit calculation.",
+      "independentChallenge": "Countercheck finds management treated loan proceeds as income, included EUR 90,000 future deposits as revenue, omitted depreciation/legal provision, and misclassified PPE and owner spending. The completed reconstruction corrects those items but is not the contractual earn-out metric.",
+      "studentReasoning": "Reject management's claimed figure. The completed reconstruction supports board reporting, but any earn-out must use the contract-defined normalized metric after the disclosed inventory variance is resolved.",
       "statementEffect": {
         "profit": null,
         "cash": null,
