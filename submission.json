@@ -561,7 +561,7 @@
       "category": "classification",
       "reviewTier": "material_judgment",
       "question": "Classify Packaging machine.",
-      "answer": "Capitalize EUR 60,000 as PPE from 10 May and depreciate within the EUR 24,000 period estimate.",
+      "answer": "Capitalize EUR 60,000 as PPE from 10 May and depreciate within the EUR 24,000 period estimate. The €60,000 purchase payment is an original investing cash outflow reported separately in D027 and the cash-flow statement; this correction has no cash effect.",
       "evidence": [
         "06 Purchases Invoices and Goods Received.pdf, pp. 1-2",
         "08 Assets Repairs Leases Maybe.xlsx, sheet Assets, rows 4-9"
@@ -569,10 +569,10 @@
       "confidence": "high",
       "aiProposal": "Initially accept the asset-sheet label \"Repair\" and expense EUR 60,000.",
       "independentChallenge": "Countercheck invoice: this is a named packaging machine, installed and available for use from 10 May, not restoration work.",
-      "studentReasoning": "The acquisition creates a long-term productive resource; the supplier invoice is stronger than management classification.",
+      "studentReasoning": "The acquisition creates a long-term productive resource; the supplier invoice is stronger than management classification. The statement effect records only the reclassification from expense to PPE, not the cash purchase.",
       "statementEffect": {
         "profit": 60000,
-        "cash": -60000,
+        "cash": 0,
         "assets": 60000,
         "liabilities": 0,
         "equity": 60000
@@ -584,7 +584,7 @@
       "category": "classification",
       "reviewTier": "material_judgment",
       "question": "Classify Photo booth.",
-      "answer": "Capitalize EUR 20,000 as PPE from 10 May and depreciate within the EUR 24,000 period estimate.",
+      "answer": "Capitalize EUR 20,000 as PPE from 10 May and depreciate within the EUR 24,000 period estimate. The €20,000 purchase payment is an original investing cash outflow reported separately in D028 and the cash-flow statement; this correction has no cash effect.",
       "evidence": [
         "06 Purchases Invoices and Goods Received.pdf, pp. 1-2",
         "08 Assets Repairs Leases Maybe.xlsx, sheet Assets, rows 4-9"
@@ -592,10 +592,10 @@
       "confidence": "high",
       "aiProposal": "Initially accept management classification of EUR 20,000 as marketing expense.",
       "independentChallenge": "Countercheck invoice and availability note: the photo booth is equipment available for use from 10 May, not an advertising service.",
-      "studentReasoning": "The item is a durable operating asset. Management label conflicts with third-party invoice and asset evidence.",
+      "studentReasoning": "The item is a durable operating asset. Management label conflicts with third-party invoice and asset evidence. The statement effect records the reclassification only, not the original cash purchase.",
       "statementEffect": {
         "profit": 20000,
-        "cash": -20000,
+        "cash": 0,
         "assets": 20000,
         "liabilities": 0,
         "equity": 20000
@@ -618,7 +618,7 @@
       "studentReasoning": "Restoration of normal condition is a period expense. Capitalization would overstate PPE and profit.",
       "statementEffect": {
         "profit": -10000,
-        "cash": -10000,
+        "cash": 0,
         "assets": -10000,
         "liabilities": 0,
         "equity": -10000
@@ -640,7 +640,7 @@
       "studentReasoning": "There is no business purpose or controlled resource. The bank/owner-card evidence supports equity distribution treatment.",
       "statementEffect": {
         "profit": 0,
-        "cash": -70000,
+        "cash": 0,
         "assets": -70000,
         "liabilities": 0,
         "equity": -70000
@@ -662,7 +662,7 @@
       "studentReasoning": "Personal owner expenditure does not reduce operating profit without substantiated business purpose.",
       "statementEffect": {
         "profit": 0,
-        "cash": -40000,
+        "cash": 0,
         "assets": -40000,
         "liabilities": 0,
         "equity": -40000
@@ -674,21 +674,21 @@
       "category": "classification",
       "reviewTier": "material_judgment",
       "question": "Classify Physical product materials consumed.",
-      "answer": "Classify EUR 405,000 as physical COGS; hold remaining inventory subject to the separately identified count/reconciliation discrepancy and damage write-off.",
+      "answer": "Use the physical-count basis: classify EUR 396,000 as physical COGS. EUR 80,000 opening inventory plus EUR 459,000 purchases less EUR 396,000 COGS equals EUR 143,000 before the EUR 22,000 damage write-off and EUR 121,000 closing saleable inventory.",
       "evidence": [
         "05 Warehouse Count Marta Notes.pdf, pp. 1-2",
         "06 Purchases Invoices and Goods Received.pdf, pp. 1-2"
       ],
       "confidence": "medium",
       "aiProposal": "Initially expense all EUR 459,000 purchases as COGS when invoiced.",
-      "independentChallenge": "Countercheck goods-received and warehouse evidence show inventory remains; valid delivered sales consumed EUR 405,000 only.",
-      "studentReasoning": "Purchasing date does not determine COGS. The warehouse note provides direct consumption evidence, but its count does not fully reconcile to the purchase roll-forward.",
+      "independentChallenge": "The warehouse evidence reports EUR 405,000 consumption but also a EUR 121,000 saleable physical count. Both cannot be used with the EUR 80,000 opening balance and EUR 459,000 purchases.",
+      "studentReasoning": "The statements select the observed physical count as the closing-inventory basis. EUR 396,000 is the resulting COGS; the conflicting EUR 405,000 source figure is disclosed as a EUR 9,000 source conflict, not absorbed in equity.",
       "statementEffect": {
-        "profit": 54000,
+        "profit": 63000,
         "cash": 0,
-        "assets": 54000,
+        "assets": 63000,
         "liabilities": 0,
-        "equity": 54000
+        "equity": 63000
       },
       "changedFromAI": true
     },
@@ -930,7 +930,7 @@
       "studentReasoning": "Delivery on 12 February satisfies the revenue trigger, and cash evidence corroborates the amount.",
       "statementEffect": {
         "profit": 180000,
-        "cash": 180000,
+        "cash": 0,
         "assets": 180000,
         "liabilities": 0,
         "equity": 180000
@@ -952,7 +952,7 @@
       "studentReasoning": "The promised boxes were delivered by reporting date. The unpaid balance is a credit risk issue, not a revenue deferral.",
       "statementEffect": {
         "profit": 200000,
-        "cash": 142000,
+        "cash": 0,
         "assets": 200000,
         "liabilities": 0,
         "equity": 200000
@@ -974,7 +974,7 @@
       "studentReasoning": "The event is completed; remaining cash collection does not defer revenue.",
       "statementEffect": {
         "profit": 100000,
-        "cash": 70000,
+        "cash": 0,
         "assets": 100000,
         "liabilities": 0,
         "equity": 100000
@@ -996,7 +996,7 @@
       "studentReasoning": "Delivery has occurred. The unpaid amount remains an asset subject to collectability review.",
       "statementEffect": {
         "profit": 120000,
-        "cash": 95000,
+        "cash": 0,
         "assets": 120000,
         "liabilities": 0,
         "equity": 120000
@@ -1142,14 +1142,14 @@
       "category": "estimation",
       "reviewTier": "material_judgment",
       "question": "Estimate Closing inventory and document the basis.",
-      "answer": "Use EUR 121,000 as counted saleable inventory (79,000+42,000); disclose the EUR 9,000 count-to-roll-forward discrepancy and do not force a false reconciliation.",
+      "answer": "Use EUR 121,000 counted saleable inventory (EUR 79,000 + EUR 42,000). On this selected physical-count basis, COGS is EUR 396,000 and the EUR 22,000 damaged stock is written off separately. The source's EUR 405,000 consumption figure is a disclosed EUR 9,000 conflict and is not used in the statements.",
       "evidence": [
         "05 Warehouse Count Marta Notes.pdf, pp. 1-2"
       ],
       "confidence": "medium",
       "aiProposal": "Initially use system total EUR 143,000 as closing inventory.",
-      "independentChallenge": "Countercheck identifies EUR 22,000 unsaleable stock, while purchase/consumption roll-forward implies EUR 134,000 before damage versus EUR 143,000 counted.",
-      "studentReasoning": "Counted saleable balances are more direct than management system values. The evidence is internally inconsistent, so EUR 121,000 is a provisional carrying amount, not a fully reconciled inventory close.",
+      "independentChallenge": "Countercheck identifies EUR 22,000 unsaleable stock and the explicit €405,000 consumption figure. The physical count requires €143,000 before damage, which determines €396,000 COGS under the selected count basis.",
+      "studentReasoning": "Counted saleable balances are selected as the financial-statement basis. The alternative €405,000 consumption figure remains in the evidence register as an unresolved source conflict rather than creating an equity adjustment.",
       "statementEffect": {
         "profit": -22000,
         "cash": 0,
@@ -1277,7 +1277,7 @@
       "category": "estimation",
       "reviewTier": "operational",
       "question": "Estimate Physical COGS and document the basis.",
-      "answer": "EUR 405,000 physical materials consumed on valid delivered sales. Keep EUR 22,000 damage write-off separate and disclose count/roll-forward inconsistency.",
+      "answer": "EUR 396,000 physical COGS on the selected count basis: EUR 80,000 opening inventory + EUR 459,000 purchases - EUR 143,000 counted inventory before damage. Write off the EUR 22,000 damaged stock separately, leaving EUR 121,000 saleable inventory.",
       "evidence": [
         "05 Warehouse Count Marta Notes.pdf, pp. 1-2"
       ],
@@ -1310,7 +1310,7 @@
       "category": "estimation",
       "reviewTier": "operational",
       "question": "Estimate Net profit and document the basis.",
-      "answer": "Net profit is EUR 61,000: revenue 960,000 less direct COGS and payroll 485,000 and operating/finance expenses 414,000. This includes EUR 4,000 insurance expense and EUR 18,000 R-17 allowance.",
+      "answer": "Net profit is EUR 70,000: revenue EUR 960,000 less direct COGS and payroll EUR 476,000 and operating/finance expenses EUR 414,000. This uses EUR 396,000 COGS under the selected physical-count inventory basis and includes EUR 4,000 insurance expense and EUR 18,000 R-17 allowance.",
       "evidence": [
         "03 CRM Export Cleaned FINAL.xlsx, sheet CRM Export, rows 4-11",
         "05 Warehouse Count Marta Notes.pdf, pp. 1-2",
@@ -1344,7 +1344,7 @@
       "category": "board_decision",
       "reviewTier": "material_judgment",
       "question": "Approve corrected accounts before valuation",
-      "answer": "Approve the corrected three statements for 31 August 2026. They are fully quantified and reconcile; retain the EUR 9,000 inventory source variance as a disclosed follow-up investigation.",
+      "answer": "Approve the corrected three statements for 31 August 2026. They use one physical-count inventory basis: EUR 121,000 closing saleable inventory and EUR 396,000 COGS. The conflicting EUR 405,000 source-consumption figure remains a disclosed evidence conflict and has not been used to alter opening equity.",
       "evidence": [
         "00 BOARD ORDER READ FIRST.pdf, p. 1",
         "03 CRM Export Cleaned FINAL.xlsx, sheet CRM Export, rows 4-11",
@@ -1355,14 +1355,14 @@
       ],
       "confidence": "high",
       "aiProposal": "Initially approve a valuation using a partial reconstructed profit.",
-      "independentChallenge": "The reopened data room provides bank, payroll, operating-cost and R-17 evidence. Recalculate all affected schedules and retain only the EUR 9,000 inventory-source variance as disclosed uncertainty.",
-      "studentReasoning": "I personally reviewed the complete evidence set and certify the reconstructed statements: net profit EUR 61,000, closing cash EUR 60,000, assets EUR 548,000 and equity EUR 142,000 reconcile.",
+      "independentChallenge": "The inventory calculation must select one source basis. Physical count gives EUR 121,000 closing saleable inventory and EUR 396,000 COGS; pairing EUR 121,000 with EUR 405,000 would create a EUR 9,000 contradiction.",
+      "studentReasoning": "I personally reviewed the complete evidence set and certify the reconstruction: net profit EUR 70,000, closing cash EUR 60,000, assets EUR 548,000 and equity EUR 142,000 reconcile. Opening equity is EUR 182,000 from the stated equity roll-forward, not a EUR 9,000 inventory adjustment.",
       "statementEffect": {
-        "profit": 61000,
-        "cash": 60000,
-        "assets": 548000,
-        "liabilities": 406000,
-        "equity": 142000
+        "profit": 0,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 0,
+        "equity": 0
       },
       "changedFromAI": true
     },
@@ -1453,7 +1453,7 @@
       "category": "board_decision",
       "reviewTier": "operational",
       "question": "Continue core Finally Single and event operations",
-      "answer": "Continue with enhanced controls and weekly cash monitoring. The reconstructed statements report EUR 61,000 net profit and EUR 60,000 closing cash, while the inventory count-to-roll-forward variance remains a disclosed follow-up item.",
+      "answer": "Continue with enhanced controls and weekly cash monitoring. The reconstructed statements report EUR 70,000 net profit and EUR 60,000 closing cash. The conflicting EUR 405,000 inventory-consumption source remains a disclosed follow-up item; the statements use the physical-count basis.",
       "evidence": [
         "03 CRM Export Cleaned FINAL.xlsx, sheet CRM Export, rows 4-11",
         "02 Bank Export August.csv",
@@ -1490,7 +1490,7 @@
   ],
   "schedules": {
     "revenueAndReceivables": {"openingReceivables":35000,"deliveredRevenue":960000,"cashCollectedDelivered":774000,"openingReceivableSettled":35000,"grossReceivables":186000,"R17Allowance":-18000,"netReceivables":168000,"contractLiabilities":90000},
-    "inventoryAndCOGS": {"openingInventory":80000,"purchasesGoodsReceived":459000,"physicalMaterialsConsumed":405000,"damagedStockWriteOff":22000,"countedSaleableClosingInventory":121000,"inventoryRollForwardBeforeDamage":134000,"warehouseCountBeforeDamage":143000,"unreconciledDifference":9000,"disposalQuoteExcludedFromCarryingValue":2000},
+    "inventoryAndCOGS": {"basis":"physical count selected for financial statements","openingInventory":80000,"purchasesGoodsReceived":459000,"physicalCOGS":396000,"inventoryBeforeDamage":143000,"damagedStockWriteOff":22000,"countedSaleableClosingInventory":121000,"sourceReportedConsumptionNotUsed":405000,"sourceConflictDisclosed":9000,"disposalQuoteExcludedFromCarryingValue":2000},
     "payroll": {"openingAccruedPayroll":15000,"expenseEventDelivery":80000,"expenseSalesAndPartnerships":72000,"expenseOfficeAndFinance":96000,"totalExpense":248000,"cashPaid":231000,"closingAccruedPayroll":32000,"founderBonusReclassifiedAsDistribution":110000},
     "operatingExpenses": {"rent":48000,"marketing":55000,"software":16000,"utilities":12000,"repairs":10000,"insuranceExpense":4000,"openingPrepaidInsurance":12000,"closingPrepaidInsurance":8000,"legalProvision":25000},
     "PPE": {
@@ -1512,14 +1512,14 @@
       "interestPaid": 10000,
       "interestPayable": 2000
     },
-    "equityAndDistributions": {"openingEquity":191000,"netProfit":61000,"ownerDistributions":-110000,"closingEquity":142000}
+    "equityAndDistributions": {"openingEquity":182000,"netProfit":70000,"ownerDistributions":-110000,"closingEquity":142000,"openingEquityNote":"Reconstructed opening equity from the stated equity roll-forward; no EUR 9,000 inventory adjustment is posted to equity."}
   },
   "statements": {
     "profitAndLoss": {
       "revenue": 960000,
-      "physicalCOGS": 405000,
+      "physicalCOGS": 396000,
       "directEventPayroll": 80000,
-      "grossProfit": 475000,
+      "grossProfit": 484000,
       "salesAndPartnershipsPayroll": 72000,
       "officeAndFinancePayroll": 96000,
       "rent": 48000,
@@ -1534,7 +1534,7 @@
       "insuranceExpense":4000,
       "interestExpense": 12000,
       "totalExpenses":414000,
-      "netProfit":61000
+      "netProfit":70000
     },
     "cashFlow": {
       "openingCash":80000,
@@ -1578,8 +1578,8 @@
         "totalLiabilities":406000
       },
       "equity": {
-        "openingEquity":191000,
-        "netProfit":61000,
+        "openingEquity":182000,
+        "netProfit":70000,
         "ownerDistributions": -110000,
         "closingEquity":142000,
         "totalLiabilitiesAndEquity":548000
@@ -1614,19 +1614,19 @@
     },
     {
       "name": "Inventory",
-      "calculation": "Independent count supports 121,000 saleable closing inventory after writing off 22,000 damaged stock. The purchase/consumption roll-forward differs from the warehouse system count by 9,000.",
-      "status": "statement amount reconciled to count; EUR 9,000 source variance disclosed"
+      "calculation": "Selected physical-count basis: 80,000 opening inventory + 459,000 purchases - 396,000 COGS = 143,000 before damage; less 22,000 damaged stock = 121,000 saleable closing inventory. The source also reports 405,000 consumption, a 9,000 conflict excluded from the statements.",
+      "status": "reconciles to selected physical-count basis; EUR 9,000 conflicting source figure disclosed"
     },
     {
       "name": "Cash and equity",
-      "calculation":"80,000 opening cash + 139,000 operating - 80,000 investing - 79,000 financing = 60,000 closing cash; 191,000 opening equity + 61,000 profit - 110,000 distributions = 142,000 closing equity; 548,000 assets = 406,000 liabilities + 142,000 equity",
+      "calculation":"80,000 opening cash + 139,000 operating - 80,000 investing - 79,000 financing = 60,000 closing cash; 182,000 opening equity + 70,000 profit - 110,000 distributions = 142,000 closing equity; 548,000 assets = 406,000 liabilities + 142,000 equity. No EUR 9,000 inventory adjustment is posted to equity.",
       "status": "reconciles"
     }
   ],
   "uncertainties": [
     {
       "issue": "Inventory source variance",
-      "effect": "EUR 9,000 difference remains between purchase/consumption roll-forward and warehouse system count; financial statements use the independent count.",
+      "effect": "The warehouse source reports both a EUR 121,000 saleable physical count and EUR 405,000 materials consumed. The statements select the count basis, use EUR 396,000 COGS, and disclose the EUR 9,000 conflict without posting it to opening equity.",
       "priority": "medium"
     },
     {
@@ -1636,7 +1636,7 @@
     }
   ],
   "boardRecommendation": {
-    "decision": "Approve the corrected, reconciled accounts for the reporting date, subject to follow-up investigation of the disclosed EUR 9,000 inventory source variance. Do not use management's EUR 312,000 claimed profit for valuation or earn-out.",
+    "decision": "Approve the corrected, reconciled accounts for the reporting date using the selected physical-count inventory basis. Investigate the conflicting EUR 405,000 source-consumption figure; do not use management's EUR 312,000 claimed profit for valuation or earn-out.",
     "immediateActions": [
       "Freeze owner-card access",
       "Move EUR 90,000 deposits to contract liabilities",
