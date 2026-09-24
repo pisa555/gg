@@ -630,20 +630,20 @@
       "category": "classification",
       "reviewTier": "material_judgment",
       "question": "Classify Owner villa deposit.",
-      "answer": "Classify EUR 70,000 as owner distribution, not asset, expense, or business investment.",
+      "answer": "Classify EUR 70,000 as an owner distribution, not customer-research expense. The cash withdrawal is already included once in financing cash flow; this decision corrects the existing expense classification with no additional cash movement.",
       "evidence": [
         "09 Loans Owner Card and Legal Problems.pdf, pp. 1-2"
       ],
       "confidence": "high",
       "aiProposal": "Initially consider the EUR 70,000 villa reservation a customer-research/marketing cost.",
       "independentChallenge": "Countercheck confirms villa is in the founder personal name and no customer meeting occurred.",
-      "studentReasoning": "There is no business purpose or controlled resource. The bank/owner-card evidence supports equity distribution treatment.",
+      "studentReasoning": "There is no business purpose or controlled resource. The bank/owner-card evidence supports equity distribution treatment. Because the withdrawal was already recorded, the correction reverses EUR 70,000 of expense and records an equal EUR 70,000 owner distribution: profit rises, total equity and cash do not change.",
       "statementEffect": {
-        "profit": 0,
+        "profit": 70000,
         "cash": 0,
-        "assets": -70000,
+        "assets": 0,
         "liabilities": 0,
-        "equity": -70000
+        "equity": 0
       },
       "changedFromAI": true
     },
@@ -652,20 +652,20 @@
       "category": "classification",
       "reviewTier": "material_judgment",
       "question": "Classify Owner card spending.",
-      "answer": "Classify EUR 40,000 as owner distribution pending contrary evidence.",
+      "answer": "Classify EUR 40,000 as an owner distribution, not a generic company expense. The cash withdrawal is already included once in financing cash flow; this decision corrects the existing expense classification with no additional cash movement.",
       "evidence": [
         "09 Loans Owner Card and Legal Problems.pdf, pp. 1-2"
       ],
       "confidence": "high",
       "aiProposal": "Initially record the EUR 40,000 as a generic company expense.",
       "independentChallenge": "Countercheck finds no invoices or business-purpose support, while source identifies owner card/bank spending.",
-      "studentReasoning": "Personal owner expenditure does not reduce operating profit without substantiated business purpose.",
+      "studentReasoning": "Personal owner expenditure does not reduce operating profit without substantiated business purpose. Because the withdrawal was already recorded, the correction reverses EUR 40,000 of expense and records an equal EUR 40,000 owner distribution: profit rises, total equity and cash do not change.",
       "statementEffect": {
-        "profit": 0,
+        "profit": 40000,
         "cash": 0,
-        "assets": -40000,
+        "assets": 0,
         "liabilities": 0,
-        "equity": -40000
+        "equity": 0
       },
       "changedFromAI": true
     },
@@ -704,13 +704,13 @@
       "confidence": "high",
       "aiProposal": "Initially classify all payroll as administrative expense.",
       "independentChallenge": "Countercheck the complete payroll register: it separately identifies EUR 80,000 event-delivery payroll, so the allocation is evidenced rather than inferred.",
-      "studentReasoning": "Event-delivery payroll relates directly to completed services. The remaining payroll is separately classified to sales/partnerships and office/finance.",
+      "studentReasoning": "Event-delivery payroll relates directly to completed services. The remaining payroll is separately classified to sales/partnerships and office/finance. This is a presentation-only reclassification within payroll expense; no statement total changes.",
       "statementEffect": {
-        "profit": null,
-        "cash": null,
-        "assets": null,
-        "liabilities": null,
-        "equity": null
+        "profit": 0,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 0,
+        "equity": 0
       },
       "changedFromAI": true
     },
